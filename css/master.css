@@ -5,12 +5,17 @@ body{
     background: purple;
 }
 header {
-    background-image: url('http://www.onelifefineart.com/images/OLindex_01.gif');
-    width: 1024px;
 
+    background-image: url('http://www.onelifefineart.com/images/OLindex_01.gif');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+header img {
+    width: 30%;
 }
 .header-menu {
-    width: 200px;
+    width: 125px;
     text-transform: capitalize;
     float: right;
 }
@@ -32,7 +37,7 @@ header {
     text-align: center;
     text-transform: capitalize;
     padding: -4px;
-    width: 1024px;
+    width: 100%;
     background: white;
 }
 .name-header h1 {
@@ -41,4 +46,5 @@ header {
 }
 .name-header img {
     margin: -4px;
+    width: 100%
 }
