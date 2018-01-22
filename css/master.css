@@ -1,0 +1,44 @@
+.container{
+    background: white;
+}
+body{
+    background: purple;
+}
+header {
+    background-image: url('http://www.onelifefineart.com/images/OLindex_01.gif');
+    width: 1024px;
+
+}
+.header-menu {
+    width: 200px;
+    text-transform: capitalize;
+    float: right;
+}
+.art-menu,
+.commissions-menu,
+.blog-menu {
+    margin: 3px;
+}
+.art-menu {
+    background: #CF42FF;
+}
+.commissions-menu {
+    background: #C46B20;
+}
+.blog-menu {
+    background: #BBC02A;
+}
+.name-header {
+    text-align: center;
+    text-transform: capitalize;
+    padding: -4px;
+    width: 1024px;
+    background: white;
+}
+.name-header h1 {
+    margin: -4px;
+    padding: 0;
+}
+.name-header img {
+    margin: -4px;
+}
