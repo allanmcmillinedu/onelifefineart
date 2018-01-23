@@ -166,3 +166,12 @@ footer {
         display: none;
     }
 }
+@media (max-width:550px) {
+    .column1 {
+        display: none;
+    }
+    .column3 {
+        width: 100%;
+    }
+
+}
