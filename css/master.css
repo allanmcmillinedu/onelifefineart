@@ -105,7 +105,12 @@ header img {
 .column3 img {
     width: 100%;
 }
-
+.mobile-dropdown {
+    display: none;
+    float: right;
+    margin: 5% 0;
+    
+}
 @media (max-width: 768px) {
     .name-header h1 {
         font-size: 30px;
@@ -121,6 +126,9 @@ header img {
         width: 49%;
     }
     header {
-        background-position: left;
+        background-position: center;
+    }
+    .mobile-dropdown {
+        display: block;
     }
 }
