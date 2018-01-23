@@ -1,3 +1,4 @@
+/* Global styles */
 .container{
     background: white;
 }
@@ -11,6 +12,11 @@ p  {
     color: #54075B;
     text-align: justify;
 }
+a {
+    font-family: Georgia, Times New Roman, Times, serif;
+    color: #54075B;
+}
+
 h3 {
     text-align: center;
     font-family: Georgia, Times New Roman, Times, serif;
@@ -21,6 +27,7 @@ ul {
     font-family: Georgia, Times New Roman, Times, serif;
     color: #54075B;
 }
+/* Header Styles */
 header {
 
     background-image: url('http://www.onelifefineart.com/images/OLindex_01.gif');
@@ -39,7 +46,8 @@ header img {
 }
 .art-menu,
 .commissions-menu,
-.blog-menu {
+.blog-menu,
+.about-menu {
     margin: 4px;
     padding-left: 2px;
     font-family: Georgia, Times New Roman, Times, serif;
@@ -53,6 +61,9 @@ header img {
 }
 .blog-menu {
     background: #BBC02A;
+}
+.about-menu {
+    background: #28a745;
 }
 .name-header {
     text-align: center;
@@ -71,6 +82,11 @@ header img {
 .name-header img {
     margin: -4px;
     width: 100%
+}
+.mobile-dropdown {
+    display: none;
+    float: right;
+    margin: 5% 0;
 }
 /* hero */
 .hero {
@@ -105,12 +121,21 @@ header img {
 .column3 img {
     width: 100%;
 }
-.mobile-dropdown {
-    display: none;
-    float: right;
-    margin: 5% 0;
-    
+
+.giving-thanks {
+    width: 100% auto;
+    }
+footer {
+    text-align: center;
+    color: purple;
+
 }
+@media (max-width:992px) {
+    .giving-thanks {
+        display: none;
+    }
+}
+/* Mobile styles */
 @media (max-width: 768px) {
     .name-header h1 {
         font-size: 30px;
@@ -130,5 +155,12 @@ header img {
     }
     .mobile-dropdown {
         display: block;
+    }
+    .mobile-dropdown a {
+        font-family: Georgia, Times New Roman, Times, serif;
+        color: #54075B;
+    }
+    .giving-thanks {
+        display: none;
     }
 }
