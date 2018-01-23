@@ -3,6 +3,23 @@
 }
 body{
     background: purple;
+    font-family: Georgia, Times New Roman, Times, serif
+}
+p  {
+    font-size: 15px;
+    font-family: Georgia, Times New Roman, Times, serif;
+    color: #54075B;
+    text-align: justify;
+}
+h3 {
+    text-align: center;
+    font-family: Georgia, Times New Roman, Times, serif;
+     color: #54075B;
+}
+ul {
+    font-size: 15px;
+    font-family: Georgia, Times New Roman, Times, serif;
+    color: #54075B;
 }
 header {
 
@@ -62,12 +79,46 @@ header img {
 .hero img {
     width: 100%
 }
-@media (max-width: 500px) {
+/* messages section */
+
+.messages {
+    background: lightgreen;
+    width: 100%;
+}
+.messages h2 {
+    text-align: center;
+    color: #54075B;
+    ;
+}
+.column1,
+.column2,
+.column3 {
+    width: 32%;
+    padding: 10px;
+    float: left;
+    color:  #54075B;
+}
+
+.projects img {
+    width: 100%;
+}
+.column3 img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
     .name-header h1 {
         font-size: 30px;
     }
     .header-menu {
         display: none;
+    }
+    .column2 {
+        display: none;
+    }
+    .column1,
+    .column3 {
+        width: 49%;
     }
     header {
         background-position: left;
