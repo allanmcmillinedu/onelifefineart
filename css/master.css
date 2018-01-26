@@ -64,7 +64,7 @@ header img {
     background: #BBC02A;
 }
 .about-menu {
-    background: #28a745;
+    background: #BABCBE;
 }
 .name-header {
     text-align: center;
@@ -84,6 +84,40 @@ header img {
     margin: -4px;
     width: 100%
 }
+.name-header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: -4px;
+    width: 100%;
+    background: white;
+    color: #54075B;
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+.menu-header img {
+    margin: -4px;
+    width: 100%
+}
+.menu-header-menu {
+    display: table;
+    width: 100%;
+    padding: -4px;
+}
+.menu-header ul {
+    /* min-width: 696px; */
+	list-style: none;
+	padding: 0;
+    font-size: 1em;
+    max-width: 100%;
+}
+.menu-header li {
+    display: inline;
+    margin-left: 2%;
+}
+.mobile-header-menu {
+    display: none;
+    float: left;
+}
+
 .mobile-dropdown {
     display: none;
     float: right;
@@ -99,7 +133,7 @@ header img {
 /* messages section */
 
 .messages {
-    background: lightgreen;
+    background: #BBC02A;
     width: 100%;
 }
 .messages h2 {
@@ -130,7 +164,41 @@ header img {
 footer {
     text-align: center;
     color: purple;
+}
+/* .about-body {
+    width: 100%;
+    float: left;
+} */
+.about-picture {
+    width: 25%;
+    float: left;
+    margin: 2%;
+}
+.about-picture img {
+    width: 100%;
+}
+.about-cv {
+    margin: 2%;
 
+}
+.about-cv h2 {
+    text-align: left;
+    color: purple;
+    font-size: 1.5em;
+}
+.about-cv h3 {
+    text-align: left;
+    color: green;
+    font-size: 1.5em;
+}
+.about-cv h4 {
+    text-align: left;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+}
+.about-cv li {
+    font-family: monospace;
 }
 @media (max-width:992px) {
     .giving-thanks {
@@ -154,6 +222,12 @@ footer {
     }
     header {
         background-position: center;
+    }
+    .mobile-header-menu {
+        display: block;
+    }
+    .menu-header-menu {
+        display: none;
     }
     .mobile-dropdown {
         display: block;
