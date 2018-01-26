@@ -101,6 +101,7 @@ header img {
     display: table;
     width: 100%;
     padding: -4px;
+    margin-bottom: -20px;
 }
 .menu-header ul {
     /* min-width: 696px; */
@@ -200,6 +201,20 @@ footer {
 .about-cv li {
     font-family: monospace;
 }
+.art-container {
+    width: 32%;
+    min-width: 100px;
+    vertical-align: top;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.art-container p {
+    text-align: center;
+    width: 100%;
+}
+.art-container img {
+    width: 100%;
+}
 @media (max-width:992px) {
     .giving-thanks {
         display: none;
@@ -239,6 +254,9 @@ footer {
     .giving-thanks {
         display: none;
     }
+    .art-container {
+        width: 48%;
+    }
 }
 @media (max-width:550px) {
     .column1 {
@@ -247,5 +265,8 @@ footer {
     .column3 {
         width: 100%;
     }
+    .art-container {
+        width: 24%;
 
+    }
 }
