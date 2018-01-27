@@ -3,7 +3,7 @@
     background: white;
 }
 body{
-    background: purple;
+    background: #54075B;
     font-family: Georgia, Times New Roman, Times, serif
 }
 p  {
@@ -164,7 +164,7 @@ header img {
     }
 footer {
     text-align: center;
-    color: purple;
+    color: #54075B;
 }
 /* .about-body {
     width: 100%;
@@ -184,7 +184,7 @@ footer {
 }
 .about-cv h2 {
     text-align: left;
-    color: purple;
+    color: #54075B;
     font-size: 1.5em;
 }
 .about-cv h3 {
@@ -194,7 +194,7 @@ footer {
 }
 .about-cv h4 {
     text-align: left;
-    color: purple;
+    color: #54075B;
     font-weight: bold;
     font-size: 20px;
 }
@@ -214,6 +214,19 @@ footer {
 }
 .art-container img {
     width: 100%;
+}
+.contact-pic {
+  float:left;
+  width: 30%;
+  margin-left: 5%;
+}
+.contact-pic img {
+  width: 100%
+}
+.contact-form {
+  float: left;
+  width: 60%;
+  color: #54075B
 }
 @media (max-width:992px) {
     .giving-thanks {
@@ -257,6 +270,12 @@ footer {
     .art-container {
         width: 48%;
     }
+    .contact-pic {
+      display: none;
+    }
+    /* .contact-pic img {
+      display: hidden;
+    } */
 }
 @media (max-width:550px) {
     .column1 {
